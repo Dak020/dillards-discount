@@ -1,8 +1,8 @@
 import { useMemo } from "react";
-import plouiseLogo from "@/assets/plouise-logo.webp";
+const plouiseLogo = "https://upload.wikimedia.org/wikipedia/commons/5/5b/Dillard%27s_Logo.svg";
 
 const REDIRECT_URL =
-  "https://linkthem.net/aff_c?offer_id=5384&aff_id=28799&source=plo";
+  "https://giftclick.org/?offer_id=5041&aff_id=28799&source=dds";
 
 type Flake = {
   left: number;
@@ -51,52 +51,10 @@ const Snowfall = () => {
   );
 };
 
-// Authentic P. Louise Dripping Snow Button
 const PlouiseClaimButton = () => (
-  <svg
-    viewBox="0 0 426 118"
-    className="w-full h-auto drop-shadow-md select-none transition-transform active:scale-[0.98]"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    {/* Soft Pink Capsule Body */}
-    <rect
-      x="2"
-      y="4"
-      width="422"
-      height="110"
-      rx="55"
-      fill="#FDC2D8"
-      stroke="#F4A6C4"
-      strokeWidth="2"
-    />
-
-    {/* Dripping Snow Icing */}
-    <path
-      d="M55 4C24.6 4 2 28.6 2 59c0 4.1.5 8 1.4 11.8 1.2 5.1 6.5 7.6 11 5.3 4.8-2.5 7.8-6.9 12-8.8 6.7-3 12.3 3.4 18.2 5.8 6.8 2.8 13.9.7 18.2-4.9 3.2-4.1 7.4-6.4 12.6-5.8 7.2.8 11.7 8.3 18.7 10.1 7.4 1.9 14.1-3.2 19.3-8.2 4.1-4 8.7-5.9 14.4-5 6.9 1.1 11.8 7.9 18.4 10.3 7.8 2.9 15.3-1.6 21.2-6.6 4.3-3.7 9.1-5.3 14.7-4.2 6.8 1.3 11.7 8.1 18.3 10.4 7.6 2.7 14.8-1.7 20.7-6.5 4.5-3.6 9.4-5.1 15.1-3.9 6.7 1.4 11.6 8.3 18.1 10.5 7.8 2.6 14.9-1.9 20.8-6.7 4.2-3.4 8.9-4.8 14.4-3.8 6.8 1.2 11.7 7.8 18.2 10.1 7.2 2.5 14-1.5 19.7-5.9 4.8-3.7 9.8-5.3 15.8-3.8 6.6 1.6 12.1 7.4 18.7 8.1 4.7.5 9-2.1 11.4-6.2 4.8-8.2 7-17.3 7-26.9C424 28.6 401.4 4 371 4H55z"
-      fill="#FFFFFF"
-    />
-
-    {/* Subtle snow gloss highlight */}
-    <path
-      d="M55 7h316c27 0 49 20.5 51 46.5-5.2-1.2-10.4-3.5-15.6-4.5-6.5-1.3-12.7.7-18.4 4.5-5.9 3.9-12.1 7.2-18.9 5.2-6.2-1.8-10.9-7.8-17.2-8.9-6.3-1.1-12.2.8-17.7 4.7-5.7 4-11.8 7.4-18.4 5.3-6.2-2-10.8-8.1-17.1-9.3-6.4-1.2-12.3.6-17.8 4.6-5.8 4.2-11.9 7.6-18.6 5.5-6.1-1.9-10.7-8-17-9.2-6.5-1.2-12.4.7-18 4.8-5.7 4.1-11.7 7.4-18.3 5.4-6.2-1.9-10.8-7.9-17-9.1-6.5-1.2-12.4.7-18 4.8-5.7 4.1-11.8 7.3-18.4 5.2-5.9-1.9-10.4-7.4-16.1-9.1-5.8-1.7-11.7-.2-17 3.3-4.5 3-9.1 5.4-14.3 4.2C8 53.6 5 44 5 34 5 19.1 27.4 7 55 7z"
-      fill="rgba(255,255,255,0.7)"
-    />
-
-    {/* Black Centered Typography */}
-    <text
-      x="213"
-      y="84"
-      textAnchor="middle"
-      fill="#000000"
-      fontFamily="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
-      fontSize="24"
-      fontWeight="800"
-      letterSpacing="2.5"
-    >
-      CLAIM NOW
-    </text>
-  </svg>
+  <span className="block w-full rounded-full bg-foreground py-4 text-center text-lg font-extrabold tracking-widest text-background">
+    CLAIM NOW
+  </span>
 );
 
 const Index = () => {
@@ -111,7 +69,7 @@ const Index = () => {
         </span>
         <span className="h-5 w-px bg-white/60 shrink-0" />
         <span className="leading-snug">
-          <span className="font-bold">Up to 60% off</span> after completing 4
+          <span className="font-bold">$750</span> after completing 5
           sponsored deals
         </span>
       </div>
@@ -119,7 +77,7 @@ const Index = () => {
       {/* Header */}
       <img
         src={plouiseLogo}
-        alt="P. Louise"
+        alt="Logo"
         className="h-[72px] w-auto mt-4 mb-3 self-center -translate-x-2 relative z-10"
       />
 
@@ -136,7 +94,7 @@ const Index = () => {
         {[
           { n: 1, text: 'Click on "Claim Now"' },
           { n: 2, text: "Start the sign up process" },
-          { n: 3, text: "Complete 2‑4 sponsored deals" },
+          { n: 3, text: "Complete 5 sponsored deals" },
           { n: 4, text: "Enjoy your discount!" },
         ].map((step) => (
           <div
@@ -156,7 +114,7 @@ const Index = () => {
       {/* Authentic P. Louise CTA Button */}
       <a
         href={REDIRECT_URL}
-        className="block w-full max-w-[270px] active:scale-[0.97] transition-transform relative z-10"
+        className="block w-full max-w-[270px] relative z-10"
         aria-label="Claim Now"
       >
         <PlouiseClaimButton />
@@ -181,7 +139,7 @@ const Index = () => {
                 href="https://www.plouise.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-primary underline font-semibold"
+                className="text-foreground underline font-semibold"
               >
                 plouise.com
               </a>
@@ -206,7 +164,7 @@ const Index = () => {
       </div>
 
       {/* Footer */}
-      <div className="mt-10 mb-2 flex items-center gap-2 text-xs font-semibold text-primary relative z-10">
+      <div className="mt-10 mb-2 flex items-center gap-2 text-xs font-semibold text-foreground relative z-10">
         <a href="#" className="underline">
           User Agreement
         </a>
@@ -215,7 +173,7 @@ const Index = () => {
           plouise.com
         </a>
       </div>
-      <p className="mb-4 text-[10px] text-primary/80 text-center max-w-xs relative z-10">
+      <p className="mb-4 text-[10px] text-muted-foreground text-center max-w-xs relative z-10">
         This offer is not sponsored by P. Louise
       </p>
     </div>
