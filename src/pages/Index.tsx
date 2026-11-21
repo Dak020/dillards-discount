@@ -177,8 +177,8 @@ const Index = () => {
           User Agreement
         </a>
         <span>·</span>
-        <a href="https://www.plouise.com" className="underline">
-          plouise.com
+        <a href="https://www.dillards.com" className="underline">
+          dillards.com
         </a>
       </div>
       <p className="mb-4 text-[10px] text-muted-foreground text-center max-w-xs relative z-10">
