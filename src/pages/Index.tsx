@@ -124,40 +124,48 @@ const Index = () => {
         receive your gift card.
       </p>
 
-      {/* How to use code */}
+      {/* Steps to apply a code */}
       <div className="w-full max-w-md mt-10 space-y-4 relative z-10">
         <h3 className="text-lg font-bold text-foreground uppercase tracking-wide">
-          How to Use Your Savings
+          Steps to Apply a Code at Checkout
         </h3>
         <div className="rounded-lg border border-border bg-card p-4 space-y-3 text-sm text-foreground">
-          <p className="font-semibold">Follow these steps:</p>
           <ol className="list-decimal pl-5 space-y-2">
-            <li>Add your favorite items to your bag.</li>
             <li>
-              Continue to checkout on{" "}
-              <a
-                href="https://www.plouise.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-foreground underline font-semibold"
-              >
-                plouise.com
-              </a>
-              .
+              <span className="font-semibold">Add items to your bag:</span> Shop
+              on Dillard's and add eligible items to your shopping bag.
             </li>
             <li>
-              Any eligible savings and offers will apply automatically at
-              checkout.
+              <span className="font-semibold">Go to checkout:</span> Open your
+              shopping bag to review your items and proceed to checkout.
+            </li>
+            <li>
+              <span className="font-semibold">Enter the code:</span> In the
+              order summary or payment section, look for the option to apply a
+              promo code, coupon code, voucher, or gift card.
+            </li>
+            <li>
+              <span className="font-semibold">Apply and verify:</span> Type or
+              paste the code carefully (codes may be case-sensitive) and click
+              Apply. Confirm the discount updates your total before completing
+              payment.
             </li>
           </ol>
-          <p className="font-semibold">Important Tips:</p>
+          <p className="font-semibold">Troubleshooting &amp; Savings Tips:</p>
           <ul className="list-disc pl-5 space-y-2 text-muted-foreground">
             <li>
-              Most P. Louise offers do not require manually typing a promo code.
+              Sponsored deals: make sure at least 5 deals are completed to get
+              delivered fast — the more deals you complete, the higher the
+              discount rate.
             </li>
-            <li>Some offers may be limited-time only.</li>
             <li>
-              Make sure all activation steps are completed before checkout.
+              Check exclusions: codes often exclude clearance, already-reduced
+              items, minimum spend thresholds, expiration dates, or specific
+              brands and channels.
+            </li>
+            <li>
+              Cardholder perks: if you have a Dillard's Card, check your account
+              for Rewards Certificates or Shopping Passes.
             </li>
           </ul>
         </div>
@@ -174,7 +182,7 @@ const Index = () => {
         </a>
       </div>
       <p className="mb-4 text-[10px] text-muted-foreground text-center max-w-xs relative z-10">
-        This offer is not sponsored by P. Louise
+        This offer is not sponsored by Dillard's
       </p>
     </div>
   );
