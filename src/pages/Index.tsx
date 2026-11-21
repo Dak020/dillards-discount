@@ -86,7 +86,7 @@ const Index = () => {
         Complete Your Registration
       </h2>
       <p className="text-sm text-muted-foreground text-center mb-6 max-w-xs relative z-10">
-        Follow these steps to claim your $500 P. Louise Holiday discount
+        Follow these steps to claim your $750 Black Friday discount on us
       </p>
 
       {/* Steps */}
